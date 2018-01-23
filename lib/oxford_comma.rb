@@ -9,7 +9,7 @@ def oxford_comma(array)
   
   if array.length > 2 
     last_elem = array.pop 
-    new_string = array.join(" ,")
+    new_string = array.join(", ")
     new_string << " and #{last_elem}"
   end 
   new_string
