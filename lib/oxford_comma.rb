@@ -8,7 +8,8 @@ def oxford_comma(array)
   end 
   
   if array.length > 2 
-    
+    last_elem = array.pop 
+    array.join(" , ")
   end 
   
 end
