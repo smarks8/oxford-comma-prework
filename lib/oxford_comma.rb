@@ -13,5 +13,4 @@ def oxford_comma(array)
     new_string << ", and #{last_elem}"
   end 
   new_string
-  
 end
