@@ -16,6 +16,7 @@ def oxford_comma(array)
         new_string << " and #{array.last}"
       end 
     end 
+    new_string
   end 
   
 end
